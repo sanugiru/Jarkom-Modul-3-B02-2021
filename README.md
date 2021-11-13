@@ -123,6 +123,8 @@ Foosha sebagai DHCP Relay
   SERVERS=”10.8.2.4"
   INTERFACES="eth1 eth2 eth3"
   ```  
+	![2-1](/screenshots/2-1.png)
+
   Restart DHCP Relay
 
   ```
