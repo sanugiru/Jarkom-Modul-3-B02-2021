@@ -128,13 +128,6 @@ Foosha sebagai DHCP Relay
   ```
   service isc-dhcp-relay restart
   ```
-- Jipangu (DHCP Server)
-
-  Edit file ```/etc/default/isc-dhcp-server``` dan isi
-
-  ```
-  INTERFACES="eth0"
-  ```
   
 ## Soal 3
 Semua client yang ada HARUS menggunakan konfigurasi IP dari DHCP Server.
