@@ -5,6 +5,52 @@
 - 05111940000086 	[Nabil Fikri Arief](https://www.github.com/alwaysyu)
 - 05111940000158 	[Shahnaaz Anisa Firdaus](https://www.github.com/sanugiru)
 
+## Konfigurasi Topologi
+![topologi](topologi.png)
+- Konfigurasi Foosha
+  ```
+  auto eth0
+  iface eth0 inet dhcp
+
+  auto eth1
+  iface eth1 inet static
+  address 10.8.1.1
+  netmask 255.255.255.0
+
+  auto eth2
+  iface eth2 inet static
+  address 10.8.2.1
+  netmask 255.255.255.0
+
+  auto eth3
+  iface eth3 inet static
+  address 10.8.3.1
+  netmask 255.255.255.0
+  ```
+- Konfigurasi EniesLobby
+  ```
+  auto eth0
+  iface eth0 inet static
+	address 10.8.2.2
+	netmask 255.255.255.0
+	gateway 10.8.2.1
+  ```
+- Konfigurasi Water7
+  ```
+  auto eth0
+  iface eth0 inet static
+	address 10.8.2.3
+	netmask 255.255.255.0
+	gateway 10.8.2.1
+  ```
+- Konfigurasi Jipangu
+  ```
+  auto eth0
+  iface eth0 inet static
+	address 10.8.2.4
+	netmask 255.255.255.0
+	gateway 10.8.2.1
+  ```
 ## Soal 1
 Luffy bersama Zoro berencana membuat peta tersebut dengan kriteria EniesLobby sebagai DNS Server, Jipangu sebagai DHCP Server, Water7 sebagai Proxy Server 
 
