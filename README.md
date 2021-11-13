@@ -6,7 +6,7 @@
 - 05111940000158 	[Shahnaaz Anisa Firdaus](https://www.github.com/sanugiru)
 
 ## Konfigurasi Topologi
-![topologi](topologi.png)
+![topologi](/screenshots/topologi.png)
 - Konfigurasi Foosha
   ```
   auto eth0
