@@ -55,6 +55,24 @@
 	netmask 255.255.255.0
 	gateway 10.8.2.1
   ```
+- Konfigurasi TottoLand
+
+  ```
+  auto eth0
+  iface eth0 inet static
+	address 10.8.3.2
+	netmask 255.255.255.0
+	gateway 10.8.3.1
+  ```
+- Konfigurasi Skypie
+
+  ```
+  auto eth0
+  iface eth0 inet static
+	address 10.8.3.3
+	netmask 255.255.255.0
+	gateway 10.8.3.1
+  ```
  - Konfigurasi Internet
  
    Foosha
